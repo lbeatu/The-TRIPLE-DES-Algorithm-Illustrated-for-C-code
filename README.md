@@ -1,6 +1,5 @@
-# The-DES-Algorithm-Illustrated-for-C-code
+# The TRIPLE-DES Algorithm Illustrated for C code
 
-by writer J. Orlin Grabbe
 
 The **DES (Data Encryption Standard)** In cryptography, Triple DES (3DES or TDES), officially the Triple Data Encryption Algorithm (TDEA or Triple DEA), is a symmetric-key block cipher, **which applies the DES cipher algorithm three times to each data block.**
 
@@ -9,7 +8,9 @@ While the government and industry standards abbreviate the algorithm's name as T
 ## **3-KEY Triple DES**
 
 Before using 3TDES, user first generate and distribute a 3TDES key K, which consists of three different DES keys K1, K2 and K3. This means that the actual **3TDES key has length 3×56 = 168 bits.** The encryption scheme is illustrated as follows
+## **Algoritm**
 
+![](https://www.tutorialspoint.com/cryptography/images/encryption_scheme.jpg)
 The encryption-decryption process is as follows
 
 - Encrypt the plaintext blocks using single DES with key K1.
@@ -28,8 +29,6 @@ Second variant of Triple DES (2TDES) is identical to 3TDES except that K3is repl
 
 Triple DES systems are significantly more secure than single DES, but these are clearly a much slower process than encryption using single DES.
 
-## **Algoritm**
 
-![](https://www.tutorialspoint.com/cryptography/images/encryption_scheme.jpg)
 
-## \*\*Source: http://page.math.tu-berlin.de/~kant/teaching/hess/krypto-ws2006/des.htm
+## \*\*Source: https://en.wikipedia.org/wiki/Triple_DES
