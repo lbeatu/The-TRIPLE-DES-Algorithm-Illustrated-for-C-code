@@ -29,6 +29,14 @@ Second variant of Triple DES (2TDES) is identical to 3TDES except that K3is repl
 
 Triple DES systems are significantly more secure than single DES, but these are clearly a much slower process than encryption using single DES.
 
-
-
+```javascript
+OUTPUT:
+		Girilen Anahtar)x8:9474B8E8C73BCA7D
+		DES sifre Cozumlemesi(Ecrypt):8da744e0c94e5e17
+		Triple-DES sifre Cozumlemesi(Ecrypt):45347c5c9f224d36
+		
+		3-DES Decrypt
+		DES sifre Cozumlemesi(Decrypt):9474b8e8c73bca7d 
+		Triple-DES sifre Cozumlemesi(Decrypt):9474b8e8c73bca7d
+```
 ## \*\*Source: https://en.wikipedia.org/wiki/Triple_DES
