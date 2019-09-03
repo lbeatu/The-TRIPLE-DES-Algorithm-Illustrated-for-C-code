@@ -31,12 +31,15 @@ Triple DES systems are significantly more secure than single DES, but these are 
 
 ```javascript
 OUTPUT:
-		Girilen Anahtar)x8:9474B8E8C73BCA7D
-		DES sifre Cozumlemesi(Ecrypt):8da744e0c94e5e17
-		Triple-DES sifre Cozumlemesi(Ecrypt):45347c5c9f224d36
-		
-		3-DES Decrypt
-		DES sifre Cozumlemesi(Decrypt):9474b8e8c73bca7d 
-		Triple-DES sifre Cozumlemesi(Decrypt):9474b8e8c73bca7d
+Ecrypt DES & 3-DES
+----------------------
+Input: 9474b8e8c73bca7d
+Des: 8da744e0c94e5e17
+3Des: 45347c5c9f224d36
+
+Decrypt DES & 3-DES
+----------------------
+Des: 9474b8e8c73bca7d
+3Des: 9474b8e8c73bca7d
 ```
 ## \*\*Source: https://en.wikipedia.org/wiki/Triple_DES
